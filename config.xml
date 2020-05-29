@@ -61,7 +61,7 @@
     <gap:splash src="resources/splash.png"       gap:platform="winphone" />
 
     <gap:config-file platform="android" parent="/manifest">
-        <application android:debuggable="false" />
+        <application android:debuggable="false" android:name="Resulam" ></application>
     </gap:config-file>
 
   
@@ -79,9 +79,6 @@
         <allow-intent href="market:*" />
     </platform>
     
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+    
 
 </widget>
