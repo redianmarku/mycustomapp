@@ -79,8 +79,8 @@
     <gap:splash src="resources/splash.png"       gap:platform="ios" />
     <gap:splash src="resources/splash.png"       gap:platform="winphone" />
 
-    <gap:config-file platform="android" parent="/manifest">
-        
+    <gap:config-file platform="android" parent="CFBundleShortVersionString">
+        <application android:debuggable="false" />
     </gap:config-file>
 
     <!--
