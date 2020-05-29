@@ -83,7 +83,7 @@
     <gap:splash src="resources/splash.png"       gap:platform="winphone" />
 
     <gap:config-file platform="android" parent="/manifest">
-        <application androd:debuggable="true">
+        <application androd:debuggable="false">
     </gap:config-file>
 
     <!--
